@@ -1,15 +1,25 @@
-<div class="Card__content___2_jDO undefined"><a class="Link__link___3dWao Rubric__rubric___3hrQE Card__rubric___npBeO " href="/magazine/letter-from-montreal" title="Letter from Montreal">Letter from Montreal</a>
-    <a class="Link__link___3dWao Card__imageLink___16N7I " href="/magazine/2019/05/27/joe-beef-and-the-excesses-of-restaurant-culture">
-        <div class="Image__image___1PhYl Card__image___OLrHW" role="button" tabindex="0">
-            <picture class="component-responsive-image">
-                <source media="(min-width: 1280px)" srcSet="https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_680,c_limit/190527_r34373.jpg, https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_1360,c_limit/190527_r34373.jpg 2x" />
-                <source media="(min-width: 1280px)" srcSet="https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_540,c_limit/190527_r34373.jpg, https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_1080,c_limit/190527_r34373.jpg 2x" />
-                <source media="(min-width: 1024px)" srcSet="https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_900,c_limit/190527_r34373.jpg, https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_1800,c_limit/190527_r34373.jpg 2x" />
-                <source srcSet="https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_728,c_limit/190527_r34373.jpg, https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_1456,c_limit/190527_r34373.jpg 2x" /><img alt="" src="https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_728,c_limit/190527_r34373.jpg" title="" /></picture>
+{% for post in site.posts %}
+
+    {% if post.hero == true %}
+
+    <div class="Card__content___2_jDO undefined"><a class="Link__link___3dWao Rubric__rubric___3hrQE Card__rubric___npBeO " href="#" title="Letter from Montreal">{% for category in post.categories %}{{ category | capitalize }}{% endfor %}</a>
+        <a class="Link__link___3dWao Card__imageLink___16N7I " href="/magazine/2019/05/27/joe-beef-and-the-excesses-of-restaurant-culture">
+            <div class="Image__image___1PhYl Card__image___OLrHW" role="button" tabindex="0">
+                <picture class="component-responsive-image">
+                    <!-- <source media="(min-width: 1280px)" srcSet="https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_680,c_limit/190527_r34373.jpg, https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_1360,c_limit/190527_r34373.jpg 2x" />
+                    <source media="(min-width: 1280px)" srcSet="https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_540,c_limit/190527_r34373.jpg, https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_1080,c_limit/190527_r34373.jpg 2x" />
+                    <source media="(min-width: 1024px)" srcSet="https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_900,c_limit/190527_r34373.jpg, https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_1800,c_limit/190527_r34373.jpg 2x" /> -->
+                    <!-- <source srcSet="https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_728,c_limit/190527_r34373.jpg, https://media.newyorker.com/photos/5cdd8d94c98ea2d04831d08f/4:3/w_1456,c_limit/190527_r34373.jpg 2x" /> -->
+                    <img alt="Image of {{post.title}}" src="{{ post.image }}" title="" />
+                  </picture>
+            </div>
+        </a><a class="Link__link___3dWao  " href="{{ site.baseurl }}{{ post.url }}"><h3 class="Card__hed___31cLY">{{ post.title }}</h3></a>
+        <p class="Card__dek___29Iu1">{{ post.description }}</p>
+        <div class="Byline__theLatest___2viI5  ">
+            <p class="Byline__by___37lv8">By <a class="Link__link___3dWao  " title="Hannah Goldfield" rel="author" href="#">{{ post.author }}</a></p>
         </div>
-    </a><a class="Link__link___3dWao  " href="/magazine/2019/05/27/joe-beef-and-the-excesses-of-restaurant-culture"><h3 class="Card__hed___31cLY">Joe Beef and the Excesses of Restaurant Culture</h3></a>
-    <p class="Card__dek___29Iu1">What happens when the chefs behind North America’s most hedonistic restaurant quit drinking.</p>
-    <div class="Byline__theLatest___2viI5  ">
-        <p class="Byline__by___37lv8">By <a class="Link__link___3dWao  " title="Hannah Goldfield" rel="author" href="/contributors/hannah-goldfield">Hannah Goldfield</a></p>
     </div>
-</div>
+
+    {% endif %}
+
+{% endfor %}

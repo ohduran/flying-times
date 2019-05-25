@@ -1,14 +1,16 @@
 ---
 layout: post
-title:  "Through the Language Glass, by Guy Deutscher"
-author: alvaro
+title:  "Through the Language Glass"
+author: Guy Deutscher
 categories: [booknotes]
 tags: [language]
 permalink: /through-the-language-glass
 image: https://images-na.ssl-images-amazon.com/images/I/51L1yVAyWLL._SX321_BO1,204,203,200_.jpg
 description: "Speaking and Thinking through the inquisitive analysis of science."
-featured: false
-hidden: false
+hero: false
+in-the-news-left: false
+in-the-news-right: false
+in-the-news-below: false
 rating: 2
 ---
 

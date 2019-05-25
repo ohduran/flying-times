@@ -1,14 +1,16 @@
 ---
 layout: post
-title:  "The Architecture of Language, by Noam Chomsky"
-author: alvaro
+title:  "The Architecture of Language"
+author: Noam Chomsky
 categories: [booknotes]
 tags: [language]
 permalink: /the-architecture-of-language
 image: https://images-na.ssl-images-amazon.com/images/I/41vgwOA%2BAZL._SX317_BO1,204,203,200_.jpg
 description: "How to discover the structure of the language, the variations of our languages and how is it used in our brain."
-featured: false
-hidden: false
+hero: false
+in-the-news-left: false
+in-the-news-right: true
+in-the-news-below: false
 rating: 1
 ---
 

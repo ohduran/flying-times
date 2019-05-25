@@ -5518,7 +5518,10 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
 .Image__image___1PhYl img,
 .Image__image___1PhYl video {
  display:block;
- max-width:100%
+ max-width: 75%;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 .Image__imageWithOverlay___27eJv {
  position:relative
@@ -10823,7 +10826,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  border-bottom:0
 }
 .Card__underHeroItem___1eZ71 .Card__image___OLrHW img {
- width:100%
+ width:50%
 }
 .Card__underHeroItem___1eZ71 .Card__rubric___npBeO {
  padding-top:20px

@@ -1,0 +1,13 @@
+<h5 class="InTheNewsSection__sectionHeader___2_kyj">Recently Added</h5>
+
+<div class="InTheNewsSection__sectionContent___Rs0Uv">
+
+    <div class="InTheNewsSection__itemsColumn___2NmEq">
+      {% for post in site.posts %}
+        {% if post.in-the-news-right == true %}
+          {% include newyorker/sections/01-in-the-news/right-item.html post=post %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+</div>

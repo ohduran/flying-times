@@ -1,0 +1,25 @@
+<div data-track-type="recirc" data-track-location="mod-secondary-alt" data-service="none" data-source="curated" class="HeroSecondarySection__secondaryItemsColumn___WTSfd">
+    {% for post in site.posts %}
+      {% if post.in-the-news-left == true %}
+
+      <div class="Card__heroSecondarySecondaryItemsRest___38peE">
+          <div class="Card__content___2_jDO undefined"><a class="Link__link___3dWao Rubric__rubric___3hrQE Card__rubric___npBeO " href="#" title="Dispatch">{% for category in post.categories %}{{ category | capitalize }}{% endfor %}</a>
+              <a class="Link__link___3dWao Card__imageLink___16N7I " href="{{ post.url }}">
+                  <div class="Image__image___1PhYl Card__image___OLrHW" role="button" tabindex="0">
+                      <picture class="component-responsive-image">
+                          <img alt="" src="{{ post.image }}" title="" />
+                        </picture>
+                  </div>
+              </a><a class="Link__link___3dWao  " href="{{ post.url }}"><h3 class="Card__hed___31cLY">{{ post.title }}</h3></a>
+              <!-- <p class="Card__dek___29Iu1">“South Kashmir is in a constant state of funerals,” a local political operator said, referring to fighting between Indian forces and Kashmiri militants. “We cannot go now and talk about votes.”</p> -->
+              {% if post.author %}
+              <div class="Byline__theLatest___2viI5  ">
+                  <p class="Byline__by___37lv8">By <a class="Link__link___3dWao  " title="{{ post.author }}" rel="author" href="#">{{ post.author }}</a></p>
+              </div>
+              {% endif %}
+          </div>
+      </div>
+
+      {% endif %}
+    {% endfor %}
+</div>

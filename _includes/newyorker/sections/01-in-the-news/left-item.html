@@ -1,17 +1,17 @@
 <div class="Card__heroSecondarySecondaryItemsRest___38peE">
-    <div class="Card__content___2_jDO undefined"><a class="Link__link___3dWao Rubric__rubric___3hrQE Card__rubric___npBeO " href="/news/dispatch" title="Dispatch">Dispatch</a>
-        <a class="Link__link___3dWao Card__imageLink___16N7I " href="/news/news-desk/in-kashmir-indian-democracy-loses-ground-to-millennial-militancy">
+    <div class="Card__content___2_jDO undefined"><a class="Link__link___3dWao Rubric__rubric___3hrQE Card__rubric___npBeO " href="#" title="Dispatch">{% for category in include.post.categories %}{{ category | capitalize }}{% endfor %}</a>
+        <a class="Link__link___3dWao Card__imageLink___16N7I " href="{{ include.post.url }}">
             <div class="Image__image___1PhYl Card__image___OLrHW" role="button" tabindex="0">
                 <picture class="component-responsive-image">
-                    <source media="(min-width: 1280px)" srcSet="https://media.newyorker.com/photos/5ce44a7b65b32e268fd99eb9/4:3/w_300,c_limit/Karnad---Kashmir.jpg, https://media.newyorker.com/photos/5ce44a7b65b32e268fd99eb9/4:3/w_600,c_limit/Karnad---Kashmir.jpg 2x" />
-                    <source media="(min-width: 1280px)" srcSet="https://media.newyorker.com/photos/5ce44a7b65b32e268fd99eb9/4:3/w_259,c_limit/Karnad---Kashmir.jpg, https://media.newyorker.com/photos/5ce44a7b65b32e268fd99eb9/4:3/w_518,c_limit/Karnad---Kashmir.jpg 2x" />
-                    <source media="(min-width: 1024px)" srcSet="https://media.newyorker.com/photos/5ce44a7b65b32e268fd99eb9/4:3/w_142,c_limit/Karnad---Kashmir.jpg, https://media.newyorker.com/photos/5ce44a7b65b32e268fd99eb9/4:3/w_284,c_limit/Karnad---Kashmir.jpg 2x" />
-                    <source srcSet="https://media.newyorker.com/photos/5ce44a7b65b32e268fd99eb9/4:3/w_728,c_limit/Karnad---Kashmir.jpg, https://media.newyorker.com/photos/5ce44a7b65b32e268fd99eb9/4:3/w_1456,c_limit/Karnad---Kashmir.jpg 2x" /><img alt="" src="https://media.newyorker.com/photos/5ce44a7b65b32e268fd99eb9/4:3/w_728,c_limit/Karnad---Kashmir.jpg" title="" /></picture>
+                    <img alt="" src="{{ include.post.image }}" title="" />
+                  </picture>
             </div>
-        </a><a class="Link__link___3dWao  " href="/news/news-desk/in-kashmir-indian-democracy-loses-ground-to-millennial-militancy"><h3 class="Card__hed___31cLY">In Kashmir, Indian Democracy Loses Ground to Millennial Militancy</h3></a>
-        <p class="Card__dek___29Iu1">“South Kashmir is in a constant state of funerals,” a local political operator said, referring to fighting between Indian forces and Kashmiri militants. “We cannot go now and talk about votes.”</p>
+        </a><a class="Link__link___3dWao  " href="{{ include.post.url }}"><h3 class="Card__hed___31cLY">{{ include.post.title }}</h3></a>
+        <!-- <p class="Card__dek___29Iu1">“South Kashmir is in a constant state of funerals,” a local political operator said, referring to fighting between Indian forces and Kashmiri militants. “We cannot go now and talk about votes.”</p> -->
+        {% if post.author %}
         <div class="Byline__theLatest___2viI5  ">
-            <p class="Byline__by___37lv8">By <a class="Link__link___3dWao  " title="Raghu Karnad" rel="author" href="/contributors/raghu-karnad">Raghu Karnad</a></p>
+            <p class="Byline__by___37lv8">By <a class="Link__link___3dWao  " title="{{ include.post.author }}" rel="author" href="#">{{ include.post.author }}</a></p>
         </div>
+        {% endif %}
     </div>
 </div>
