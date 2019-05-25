@@ -61,3 +61,12 @@ adsense-data-ad-slot: "1363087678"
 lazyimages: "disabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
+videoSection: false
+dailyCartoonSection: false
+photoBoothSection: false
+magazineSection: false
+fromThisWeekSection: false
+ourColumnistsSection: false
+podcastsSection: false
+previousCoverageSection: false
