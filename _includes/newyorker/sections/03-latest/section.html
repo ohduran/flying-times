@@ -3,42 +3,20 @@
         <h5 class="LatestSection__sectionHeader___1xOSE">The Journal</h5>
         <div class="LatestSection__listContainer___3lMZ4">
 
-          {% for post in site.posts %}
-            {% for category in post.categories %}
-
-              {% if category == 'journal' %}
+          {% for post in site.journal %}
                 <div class="Card__theLatest___2bNJt">
                     <div class="Card__content___10ZW7 Card__hasPhoto___2TFok">
-                        <!-- <div class="Card__topSection___2luA-">
-                          <a class="Link__link___3dWao Rubric__rubric___3hrQE Card__rubric___2pUPJ " href="#" title="Daily Cartoon">{{ post.title }}</a>
-                        </div> -->
                         <a class="Link__link___3dWao  " href="{{ post.url }}"><h3 class="Card__hed___3aD8c">{{ post.title }}</h3></a>
                         <div class="Card__dekImageContainer___3CRKY">
-                            <!-- <a class="Link__link___3dWao  " href="{{ post.url }}">
-                                <div class="Image__image___1PhYl Card__image___3i3np" role="button" tabindex="0">
-                                    <picture class="component-responsive-image">
-                                        <img alt="" src="{{ post.image }}" title="" />
-                                      </picture>
-                                </div>
-                            </a> -->
                             <p class="Card__dek___2E3rB">{{ post.excerpt }}</p>
                         </div>
 
                         <div>
-                          {% if post.author %}
-                            <div class="Byline__theLatest___2viI5  ">
-                                <p class="Byline__by___37lv8">By <a class="Link__link___3dWao  " title="Lisa Rothstein" rel="author" href="/contributors/lisa-rothstein">Lisa Rothstein</a></p>
-                            </div>
-                          {% endif %}
-                            <span class="Card__timestamp___3DCYn">{{ post.date | date: "%a, %d %b, %y" }}</span>
+                          {% include newyorker/author-and-date.html post=post %}
                         </div>
 
                     </div>
                 </div>
-
-                {% break %}
-              {% endif %}
-            {% endfor %}
 
 
           {% endfor %}

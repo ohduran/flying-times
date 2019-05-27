@@ -1,5 +1,6 @@
 ---
 layout: post
+output: true
 title:  "How to read a book"
 author: Mortimer Adler & Charles Van Doren
 categories: [booknotes]
@@ -7,10 +8,6 @@ tags: [language, performance]
 permalink: /how-to-read-a-book
 image: https://images-na.ssl-images-amazon.com/images/I/51EG8AyJiQL.jpg
 description: "Reading is not what you really think it is."
-hero: false
-in-the-news-left: true
-in-the-news-right: false
-in-the-news-below: false
 rating: 5
 ---
 

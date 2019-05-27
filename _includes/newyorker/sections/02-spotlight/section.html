@@ -8,38 +8,26 @@
                 <div class="SpotlightSection__itemsColumn___1C0Z6">
                   <!-- First two go to the first row, then the third and fourth, and lastly the fifth and sixth -->
 
-                  {% for post in site.posts %}
-                    {% for category in post.categories %}
-
-                      {% if category == 'articles' %}
+                  {% for post in site.articles | slice: 0, 6 %}
 
                         <div class="SpotlightSection__spotlightItemContainer___3Aiko">
                             <div class="Card__spotlightItemsAlt___3zmmE">
-                                <div class="Card__content___2_jDO undefined"><a class="Link__link___3dWao Rubric__rubric___3hrQE Card__rubric___npBeO " href="#" title="Daily Comment">{% for category in post.categories %}{{ category | capitalize }} {% endfor %}</a>
+                                <div class="Card__content___2_jDO undefined">
+                                  {% include newyorker/categories.html post=post %}
                                     <a class="Link__link___3dWao Card__imageLink___16N7I " href="{{ post.url }}">
-                                      {% if post.image %}
                                         <div class="Image__image___1PhYl Card__image___OLrHW" role="button" tabindex="0">
-                                            <picture class="component-responsive-image">
-                                                <img alt="" src="{{ post.image }}" title="" />
-                                            </picture>
+                                            {% include newyorker/image.html post=post %}
                                         </div>
-                                      {% endif %}
-                                    </a><a class="Link__link___3dWao  " href="{{ post.url }}"><h3 class="Card__hed___31cLY">{{ post.title }}</h3></a>
+                                    </a>
+                                    <a class="Link__link___3dWao  " href="{{ post.url }}"><h3 class="Card__hed___31cLY">{{ post.title }}</h3></a>
                                     <p class="Card__dek___29Iu1">{{ post.excerpt }}</p>
 
-                                    <div class="Byline__theLatest___2viI5  ">
-                                      {% if post.author%}
-                                        <p class="Byline__by___37lv8">By <a class="Link__link___3dWao  " title="Amy Davidson Sorkin" rel="author" href="/contributors/amy-davidson-sorkin">Amy Davidson Sorkin</a></p>
-                                      {% endif %}
-                                        <span class="Card__timestamp___3DCYn">{{ post.date | date: "%a, %d %b, %y" }}</span>
-                                    </div>
+                                    {% include newyorker/author-and-date.html post=post %}
 
                                 </div>
                             </div>
                         </div>
 
-                        {% endif %}
-                      {% endfor %}
                     {% endfor %}
 
 

@@ -7,10 +7,6 @@ tags: [language, infinity]
 permalink: /tractatus-logico-philosophicus
 image: https://images-na.ssl-images-amazon.com/images/I/514YAYwy6wL._SX316_BO1,204,203,200_.jpg
 description: "Language is how we think, and all we can think is logical. Hence, what isn't logical cannot be discussed."
-hero: false
-in-the-news-left: false
-in-the-news-right: false
-in-the-news-below: false
 rating: 4
 ---
 

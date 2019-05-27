@@ -7,10 +7,6 @@ tags: [language]
 permalink: /politics-and-the-english-language
 image: https://images-eu.ssl-images-amazon.com/images/I/418Xj79ENkL.jpg
 description: "How we speak affects how we think; and politics is full of bad speaking, which clouds our minds and how we vote."
-hero: false
-in-the-news-left: false
-in-the-news-right: false
-in-the-news-below: false
 rating: 3
 ---
 
