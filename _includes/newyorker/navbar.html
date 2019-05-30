@@ -2,7 +2,7 @@
     <div class="Navigation__navList___gJe7C Navigation__full___3tbkr">
         <ul>
           {% for item in site.data.navbar %}
-            <li data-track-type="nav" data-track-location="button-news"><a class="Link__link___3dWao  " href="/news">{{ item.label }}</a></li>
+            <li data-track-type="nav" data-track-location="button-news"><a class="Link__link___3dWao  " href="{{ item.url }}">{{ item.label }}</a></li>
           {% endfor %}
             <li class="Navigation__subscribe___3OCs_">
                 <div data-cm-unit="show-failsafe">

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: draft_page
 title: Mediumish Template for Jekyll
 permalink: /about
 comments: true

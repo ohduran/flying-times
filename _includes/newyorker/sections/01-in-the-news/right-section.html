@@ -3,10 +3,12 @@
 <div class="InTheNewsSection__sectionContent___Rs0Uv">
 
     <div class="InTheNewsSection__itemsColumn___2NmEq">
-      {% for post in site.articles %}
-        {% if post.in-the-news-right == true %}
+      {% include all_posts.html %}
+      {% assign recently_added = all_posts | slice: -6, 6 %}
+      {% for post in recently_added %}
         <div class="Card__inTheNewsItems___hdiHO">
             <div class="Card__content___2_jDO undefined">
+              {% include newyorker/categories.html post=post %}
                 <a class="Link__link___3dWao Card__imageLink___16N7I " href="{{ post.url }}">
                     <div class="Image__image___1PhYl Card__image___OLrHW" role="button" tabindex="0">
                         {% include newyorker/image.html post=post %}
@@ -16,7 +18,6 @@
                 {% include newyorker/author-and-date.html post=post %}
             </div>
         </div>
-        {% endif %}
       {% endfor %}
     </div>
 

@@ -1825,14 +1825,6 @@ a:hover {
 .Navigation__navList___gJe7C {
  transition:height .5s
 }
-.Navigation__navList___gJe7C:after {
- background-color:#e5e5e5;
- content:"";
- display:block;
- height:1px;
- margin:0 10px;
- max-width:100%
-}
 .Navigation__navList___gJe7C ul {
  display:-ms-flexbox;
  display:flex;
@@ -2966,14 +2958,6 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
 }
 .CaptionContestHeader__navList___2ptRb {
  transition:height .5s
-}
-.CaptionContestHeader__navList___2ptRb:after {
- background-color:#e5e5e5;
- content:"";
- display:block;
- height:1px;
- margin:0 10px;
- max-width:100%
 }
 .CaptionContestHeader__navList___2ptRb ul {
  display:-ms-flexbox;
@@ -5518,10 +5502,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
 .Image__image___1PhYl img,
 .Image__image___1PhYl video {
  display:block;
- max-width: 75%;
-display: block;
-margin-left: auto;
-margin-right: auto;
+ max-width:100%
 }
 .Image__imageWithOverlay___27eJv {
  position:relative
@@ -10826,7 +10807,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  border-bottom:0
 }
 .Card__underHeroItem___1eZ71 .Card__image___OLrHW img {
- width:30%
+ width:100%
 }
 .Card__underHeroItem___1eZ71 .Card__rubric___npBeO {
  padding-top:20px
@@ -11590,9 +11571,29 @@ a:hover .IssueDate__issueDate___2e_OC {
  padding-left:20px;
  padding-right:20px
 }
-.HomePage__headerAd___3s-AO {
- border-bottom:none
+.IndexPage__hed___MxNtS {
+ color:inherit;
+ font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-size:32px;
+ font-weight:400;
+ line-height:1.12
 }
-.HomePage__headerAd___3s-AO:after {
- display:none
+@media (min-width:768px) {
+ .IndexPage__hed___MxNtS {
+  font-size:44px;
+  line-height:1.09
+ }
+}
+.IndexPage__hed___MxNtS {
+ margin:30px auto 0;
+ max-width:calc(100% - 40px);
+ padding-bottom:30px;
+ text-align:center
+}
+@media (min-width:768px) {
+ .IndexPage__hed___MxNtS {
+  margin-bottom:10px;
+  margin-top:40px;
+  padding-bottom:0
+ }
 }
