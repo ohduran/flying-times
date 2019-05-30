@@ -20,7 +20,7 @@ comments: true
 
 </div>
 
-<div class="col-md-4">
+<!-- <div class="col-md-4">
 
 <div class="sticky-top sticky-top-80">
 <h5>Become a patron</h5>
@@ -30,5 +30,5 @@ comments: true
 <a target="_blank" href="https://www.patreon.com/aduranb" class="btn btn-danger">Become a Patron</a>
 
 </div>
-</div>
+</div> -->
 </div>
