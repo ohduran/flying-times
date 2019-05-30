@@ -9780,9 +9780,6 @@ a:hover .IssueDate__issueDate___2e_OC {
  position:relative;
  text-align:left
 }
-.River__riverItem___3huWr:last-child {
- border-bottom:0
-}
 @media (min-width:768px) {
  .River__riverItem___3huWr {
   margin-top:30px;
@@ -9910,8 +9907,8 @@ a:hover .IssueDate__issueDate___2e_OC {
   margin:0;
   padding-top:25px
  }
- .River__secondarySectionDuo___2vaQr .River__riverItem___3huWr:first-of-type,
- .River__secondarySectionTrio___3G6YW .River__riverItem___3huWr:first-of-type {
+ .River__secondarySectionDuo___2vaQr .River__riverItem___3huWr,
+ .River__secondarySectionTrio___3G6YW .River__riverItem___3huWr {
   border-top:0
  }
 }
@@ -9931,19 +9928,19 @@ a:hover .IssueDate__issueDate___2e_OC {
   -ms-flex:0 0 50%;
   flex:0 0 50%
  }
- .River__secondarySectionDuo___2vaQr .River__riverItem___3huWr:first-of-type {
+ .River__secondarySectionDuo___2vaQr .River__riverItem___3huWr {
   border-right:1px solid #e5e5e5
  }
- .River__secondarySectionDuo___2vaQr .River__riverItem___3huWr:first-of-type .River__riverItemContent___2hXMG {
+ .River__secondarySectionDuo___2vaQr .River__riverItem___3huWr .River__riverItemContent___2hXMG {
   padding-right:30px
  }
- .River__secondarySectionDuo___2vaQr .River__riverItem___3huWr:first-of-type picture {
+ .River__secondarySectionDuo___2vaQr .River__riverItem___3huWr picture {
   margin-right:30px
  }
- .River__secondarySectionDuo___2vaQr .River__riverItem___3huWr:nth-of-type(2) .River__riverItemContent___2hXMG {
+ .River__secondarySectionDuo___2vaQr .River__riverItem___3huWr .River__riverItemContent___2hXMG {
   padding-left:30px
  }
- .River__secondarySectionDuo___2vaQr .River__riverItem___3huWr:nth-of-type(2) picture {
+ .River__secondarySectionDuo___2vaQr .River__riverItem___3huWr picture {
   margin-left:30px
  }
  .River__secondarySectionDuo___2vaQr .River__riverItem___3huWr picture {
@@ -10177,14 +10174,14 @@ a:hover .IssueDate__issueDate___2e_OC {
  .River__hubSecondaryTrio___39r35 .River__riverItem___3huWr .River__publishDate___1fSSK {
   padding-top:10px
  }
- .River__hubSecondaryTrio___39r35 .River__riverItem___3huWr:first-of-type {
+ .River__hubSecondaryTrio___39r35 .River__riverItem___3huWr {
   padding-right:20px
  }
- .River__hubSecondaryTrio___39r35 .River__riverItem___3huWr:nth-of-type(2) {
+ .River__hubSecondaryTrio___39r35 .River__riverItem___3huWr {
   padding-left:20px;
   padding-right:20px
  }
- .River__hubSecondaryTrio___39r35 .River__riverItem___3huWr:nth-of-type(3) {
+ .River__hubSecondaryTrio___39r35 .River__riverItem___3huWr {
   padding-left:20px
  }
 }
