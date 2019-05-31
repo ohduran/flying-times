@@ -1,88 +1,31 @@
+{% assign posts = include.posts | slice: -4, 3 %}
 <section class="SecondarySection__secondarySectionRow___2Oj9b">
     <div class="SecondarySection__secondarySectionColumn___3D9VE">
         <div class="SecondarySection__content___29Tap">
             <div class="River__secondarySectionDuo___2vaQr">
                 <ul data-track-type="recirc" data-track-location="mod-large-secondary-features" data-service="none" data-source="curated" class="River__list___2_45v">
+                  {% for post in posts %}
                   <li class="River__riverItem___3huWr">
                       <div class="River__riverItemContent___2hXMG">
-                          <a class="Link__link___3dWao Rubric__rubric___3hrQE River__rubric___2dq2z " href="/books/page-turner" title="Page-Turner">Page-Turner</a>
-                          <a class="Link__link___3dWao  " href="/news/dispatch/the-invisible-city-beneath-paris">
-                              <h4 class="River__hed___re6RP">The Invisible City Beneath Paris</h4>
+                          {% include newyorker/categories.html post=post %}
+                          <a class="Link__link___3dWao  " href="{{ post.url }}">
+                              <h4 class="River__hed___re6RP">{{ post.title }}</h4>
                           </a>
                           <div class="River__riverItemBody___347sz">
-                              <a class="Link__link___3dWao  " href="/news/dispatch/the-invisible-city-beneath-paris">
+                              <a class="Link__link___3dWao  " href="{{ post.url }}">
                                   <div class="Image__image___1PhYl" role="button" tabindex="0">
-                                      <picture class="component-responsive-image">
-                                          <source media="(min-width: 1280px)" srcSet="https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_345,c_limit/Macfarlane-ParisCatacombs.jpg, https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_690,c_limit/Macfarlane-ParisCatacombs.jpg 2x" />
-                                          <source media="(min-width: 768px)" srcSet="https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_279,c_limit/Macfarlane-ParisCatacombs.jpg, https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_558,c_limit/Macfarlane-ParisCatacombs.jpg 2x" />
-                                          <source srcSet="https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_116,c_limit/Macfarlane-ParisCatacombs.jpg, https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_232,c_limit/Macfarlane-ParisCatacombs.jpg 2x" />
-                                          <img alt="" src="https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_116,c_limit/Macfarlane-ParisCatacombs.jpg" title="" />
-                                      </picture>
+                                      {% include newyorker/image.html post=post %}
                                   </div>
                               </a>
-                              <h5 class="River__dek___CayIg">Under the southern portion of the city exists its negative image: a network of more than two hundred miles of galleries, rooms, and chambers.</h5>
-                              <div class="River__byline___3AbqA  ">
-                                  <p class="Byline__by___37lv8">By
-                                      <a class="Link__link___3dWao  " title="Robert Macfarlane" rel="author" href="/contributors/robert-macfarlane">Robert Macfarlane</a>
-                                  </p>
-                              </div>
+                              <h5 class="River__dek___CayIg">{{ post.description }}</h5>
+                              {% include newyorker/author-and-date.html post=post %}
                           </div>
                       </div>
                   </li>
-                  <li class="River__riverItem___3huWr">
-                      <div class="River__riverItemContent___2hXMG">
-                          <a class="Link__link___3dWao Rubric__rubric___3hrQE River__rubric___2dq2z " href="/books/page-turner" title="Page-Turner">Page-Turner</a>
-                          <a class="Link__link___3dWao  " href="/news/dispatch/the-invisible-city-beneath-paris">
-                              <h4 class="River__hed___re6RP">The Invisible City Beneath Paris</h4>
-                          </a>
-                          <div class="River__riverItemBody___347sz">
-                              <a class="Link__link___3dWao  " href="/news/dispatch/the-invisible-city-beneath-paris">
-                                  <div class="Image__image___1PhYl" role="button" tabindex="0">
-                                      <picture class="component-responsive-image">
-                                          <source media="(min-width: 1280px)" srcSet="https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_345,c_limit/Macfarlane-ParisCatacombs.jpg, https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_690,c_limit/Macfarlane-ParisCatacombs.jpg 2x" />
-                                          <source media="(min-width: 768px)" srcSet="https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_279,c_limit/Macfarlane-ParisCatacombs.jpg, https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_558,c_limit/Macfarlane-ParisCatacombs.jpg 2x" />
-                                          <source srcSet="https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_116,c_limit/Macfarlane-ParisCatacombs.jpg, https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_232,c_limit/Macfarlane-ParisCatacombs.jpg 2x" />
-                                          <img alt="" src="https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_116,c_limit/Macfarlane-ParisCatacombs.jpg" title="" />
-                                      </picture>
-                                  </div>
-                              </a>
-                              <h5 class="River__dek___CayIg">Under the southern portion of the city exists its negative image: a network of more than two hundred miles of galleries, rooms, and chambers.</h5>
-                              <div class="River__byline___3AbqA  ">
-                                  <p class="Byline__by___37lv8">By
-                                      <a class="Link__link___3dWao  " title="Robert Macfarlane" rel="author" href="/contributors/robert-macfarlane">Robert Macfarlane</a>
-                                  </p>
-                              </div>
-                          </div>
-                      </div>
-                  </li>
-                  <li class="River__riverItem___3huWr">
-                      <div class="River__riverItemContent___2hXMG">
-                          <a class="Link__link___3dWao Rubric__rubric___3hrQE River__rubric___2dq2z " href="/books/page-turner" title="Page-Turner">Page-Turner</a>
-                          <a class="Link__link___3dWao  " href="/news/dispatch/the-invisible-city-beneath-paris">
-                              <h4 class="River__hed___re6RP">The Invisible City Beneath Paris</h4>
-                          </a>
-                          <div class="River__riverItemBody___347sz">
-                              <a class="Link__link___3dWao  " href="/news/dispatch/the-invisible-city-beneath-paris">
-                                  <div class="Image__image___1PhYl" role="button" tabindex="0">
-                                      <picture class="component-responsive-image">
-                                          <source media="(min-width: 1280px)" srcSet="https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_345,c_limit/Macfarlane-ParisCatacombs.jpg, https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_690,c_limit/Macfarlane-ParisCatacombs.jpg 2x" />
-                                          <source media="(min-width: 768px)" srcSet="https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_279,c_limit/Macfarlane-ParisCatacombs.jpg, https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_558,c_limit/Macfarlane-ParisCatacombs.jpg 2x" />
-                                          <source srcSet="https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_116,c_limit/Macfarlane-ParisCatacombs.jpg, https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_232,c_limit/Macfarlane-ParisCatacombs.jpg 2x" />
-                                          <img alt="" src="https://media.newyorker.com/photos/5ce2b51a65b32e5ec8d99aa0/4:3/w_116,c_limit/Macfarlane-ParisCatacombs.jpg" title="" />
-                                      </picture>
-                                  </div>
-                              </a>
-                              <h5 class="River__dek___CayIg">Under the southern portion of the city exists its negative image: a network of more than two hundred miles of galleries, rooms, and chambers.</h5>
-                              <div class="River__byline___3AbqA  ">
-                                  <p class="Byline__by___37lv8">By
-                                      <a class="Link__link___3dWao  " title="Robert Macfarlane" rel="author" href="/contributors/robert-macfarlane">Robert Macfarlane</a>
-                                  </p>
-                              </div>
-                          </div>
-                      </div>
-                  </li>
+                  {% endfor %}
                 </ul>
             </div>
         </div>
     </div>
 </section>
+{% assign posts = include.posts %}

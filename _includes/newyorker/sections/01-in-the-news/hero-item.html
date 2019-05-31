@@ -1,6 +1,7 @@
 {% assign post = site.books.last %}
 
-    <div class="Card__content___2_jDO undefined"><a class="Link__link___3dWao Rubric__rubric___3hrQE Card__rubric___npBeO " href="#" title="{% for category in post.categories %}{{ category | capitalize }}{% endfor %}">{% for category in post.categories %}{{ category | capitalize }}{% endfor %}</a>
+    <div class="Card__content___2_jDO undefined">
+      {% include newyorker/categories.html %}
         <a class="Link__link___3dWao Card__imageLink___16N7I " href="{{ post.url }}e">
             <div class="Image__image___1PhYl Card__image___OLrHW" role="button" tabindex="0">
                 {% include newyorker/image.html post=post %}
