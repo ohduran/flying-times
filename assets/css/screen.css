@@ -302,6 +302,14 @@ span.post-read-more a:hover {
     max-height: 30px;
     margin-right: 5px;
 }
+.allbooks img {
+  max-width: 12em;
+  max-height: 15em;
+}
+.secondarybooks img {
+  max-width: auto;
+  max-height: 100%;
+}
 
 .mainheading h1.sitetitle {
     font-family: Righteous;

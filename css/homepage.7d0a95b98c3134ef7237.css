@@ -5518,9 +5518,6 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
 .Image__image___1PhYl img,
 .Image__image___1PhYl video {
  display:block;
- max-width: 12em;
- max-height: 15em;
- text-align: center;
  margin-left: auto;
  margin-right: auto;
 }
@@ -8428,10 +8425,10 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .Hero__heroImage___DTWP9 {
  padding:0;
- width:100%
+ /* width:100% */
 }
 .Hero__heroImage___DTWP9 img {
- width:100%
+ /* width:100% */
 }
 @media (min-width:1024px) and (max-width:1279px) {
  .Hero__heroImage___DTWP9 {
@@ -10802,7 +10799,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  }
 }
 .Card__heroSecondaryHeroItems___3O_Xd .Card__image___OLrHW img {
- width:100%
+ /* width:100% */
 }
 .Card__heroSecondaryHeroItems___3O_Xd .Card__rubric___npBeO {
  padding-top:20px

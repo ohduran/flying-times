@@ -8407,10 +8407,10 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .Hero__heroImage___DTWP9 {
  padding:0;
- width:100%
+ /* width:100% */
 }
 .Hero__heroImage___DTWP9 img {
- width:100%
+ /* width:100% */
 }
 @media (min-width:1024px) and (max-width:1279px) {
  .Hero__heroImage___DTWP9 {

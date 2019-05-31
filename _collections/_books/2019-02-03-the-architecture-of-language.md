@@ -5,7 +5,7 @@ author: Noam Chomsky
 categories: [booknotes]
 tags: [language]
 permalink: /the-architecture-of-language
-image: https://images-na.ssl-images-amazon.com/images/I/41vgwOA%2BAZL._SX317_BO1,204,203,200_.jpg
+image: https://images-na.ssl-images-amazon.com/images/I/41vgwOA%2BAZL.jpg
 description: "How to discover the structure of the language, the variations of our languages and how is it used in our brain."
 rating: 1
 ---

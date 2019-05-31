@@ -5,7 +5,7 @@ author: Plato
 categories: [booknotes]
 tags: [language]
 permalink: /trial-and-death-of-socrates
-image: https://images-eu.ssl-images-amazon.com/images/I/51PmLZNtdlL._SY346_.jpg
+image: https://images-eu.ssl-images-amazon.com/images/I/51PmLZNtdlL.jpg
 description: "Wise mentor, pompous, arrogant and often petulant teacher, Socrates is trialed and sentenced to death."
 rating: 2
 ---

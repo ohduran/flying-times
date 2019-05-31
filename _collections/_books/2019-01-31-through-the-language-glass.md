@@ -5,7 +5,7 @@ author: Guy Deutscher
 categories: [booknotes]
 tags: [language]
 permalink: /through-the-language-glass
-image: https://images-na.ssl-images-amazon.com/images/I/51L1yVAyWLL._SX321_BO1,204,203,200_.jpg
+image: https://images-na.ssl-images-amazon.com/images/I/51L1yVAyWLL.jpg
 description: "Speaking and Thinking through the inquisitive analysis of science."
 rating: 2
 ---
