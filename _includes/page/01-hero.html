@@ -1,3 +1,4 @@
+{% assign post = include.posts | last %}
 <section data-track-type="recirc" data-track-location="mod-featured-header" data-service="none" data-source="curated" class="HeroSection__heroSectionRow___1VwHE">
     <div class="HeroSection__heroSectionColumn___FDEtM">
         <div class="Hero__heroWrapper___2CMSF ">
@@ -14,7 +15,7 @@
             <div class="Hero__heroContent___SH2ps">
                 <a class="Link__link___3dWao Rubric__rubric___3hrQE Hero__rubric___fmNZU " href="/magazine/books" title="Books">Books</a>
                 <a class="Link__link___3dWao  " href="/magazine/2019/06/03/the-bittersweet-poetry-of-lima-limon">
-                    <h1 class="Hero__hed___3qGU4">The Bittersweet Poetry of  “Lima :: Limón”</h1>
+                    <h1 class="Hero__hed___3qGU4">{{ post.title}}</h1>
                 </a>
                 <h2 class="Hero__dek___I2uAD">Natalie Scenters-Zapico’s latest poems probe the richness of contradiction, mixing violence and pleasure, damage and repair.</h2>
                 <div class="Hero__byline___9RWsU  ">
