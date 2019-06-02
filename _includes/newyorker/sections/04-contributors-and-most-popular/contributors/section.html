@@ -7,7 +7,7 @@
               {% for collection in site.collections %}
                 {% if collection.label != 'posts' %}
                 <div class="Contributor__itemContainer___3CS3_">
-                    <a class="Link__link___3dWao  " href="/contributors/andrea-k-scott">
+                    <a class="Link__link___3dWao  " href="/{{ collection.label }}">
                         <div class="Image__image___1PhYl Contributor__photo___SVmjU" role="button" tabindex="0">
                             <picture class="component-responsive-image">
                                 <img alt="" src="{{ collection.image_url }}" title="" />
@@ -15,11 +15,11 @@
                         </div>
                     </a>
                     <div>
-                      <a class="Link__link___3dWao Contributor__name___2cnfi " href="#">{{ collection.label | replace: "_", " " | capitalize }}</a>
+                      <a class="Link__link___3dWao Contributor__name___2cnfi " href="/{{ collection.label }}">{{ collection.label | replace: "_", " " | capitalize }}</a>
                       <a class="Link__link___3dWao  " href="{{ collection.docs.last.url }}">
                         <h3 class="Contributor__hed___2z_RO">{{ collection.docs.last.title }}</h3>
                       </a>
-                      <a class="Link__link___3dWao Contributor__work___392rP " href="#">More on this collection</a></div>
+                      <a class="Link__link___3dWao Contributor__work___392rP " href="/{{ collection.label }}">More on this collection</a></div>
                 </div>
                 {% endif %}
               {% endfor %}

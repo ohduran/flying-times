@@ -196,41 +196,41 @@ template {
  display:none
 }
 @font-face {
- font-family:Neutra Face;
+ font-family:Alegreya Sans;
  font-style:normal;
  src:url("/fonts/NeutrafaceNewYorker-SemiBold.woff2") format("woff2"),
  url("/fonts/NeutrafaceNewYorker-SemiBold.woff") format("woff")
 }
 @font-face {
- font-family:Adobe Caslon;
+ font-family:Alegreya;
  font-style:normal;
  font-weight:400;
  src:url("/fonts/AdobeCaslonPro-Regular.woff2") format("woff2"),
  url("/fonts/AdobeCaslonPro-Regular.woff") format("woff")
 }
 @font-face {
- font-family:Adobe Caslon;
+ font-family:Alegreya;
  font-style:italic;
  font-weight:400;
  src:url("/fonts/AdobeCaslonPro-Italic.woff2") format("woff2"),
  url("/fonts/AdobeCaslonPro-Italic.woff") format("woff")
 }
 @font-face {
- font-family:Adobe Caslon;
+ font-family:Alegreya;
  font-style:normal;
  font-weight:500;
  src:url("/fonts/AdobeCaslonPro-SemiBold.woff2") format("woff2"),
  url("/fonts/AdobeCaslonPro-SemiBold.woff") format("woff")
 }
 @font-face {
- font-family:Adobe Caslon;
+ font-family:Alegreya;
  font-style:normal;
  font-weight:700;
  src:url("/fonts/AdobeCaslonPro-Bold.woff2") format("woff2"),
  url("/fonts/AdobeCaslonPro-Bold.woff") format("woff")
 }
 @font-face {
- font-family:Adobe Caslon;
+ font-family:Alegreya;
  font-style:italic;
  font-weight:700;
  src:url("/fonts/AdobeCaslonPro-BoldItalic.woff2") format("woff2"),
@@ -243,7 +243,7 @@ template {
  url("/fonts/Irvin-Text.ttf") format("truetype")
 }
 @font-face {
- font-family:Irvin Heading;
+ font-family:Roboto;
  src:url("/fonts/Irvin-Heading.woff2") format("woff2"),
  url("/fonts/Irvin-Heading.woff") format("woff"),
  url("/fonts/Irvin-Heading.ttf") format("truetype"),
@@ -986,7 +986,7 @@ a:hover {
 }
 .ArticleRightRailFailsafe__wrapper___1TJ1f {
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:21px;
  font-style:normal;
  font-weight:400;
@@ -1019,7 +1019,7 @@ a:hover {
 .BarrierFailsafe__header___1VGQh,
 .BarrierFailsafe__subheader___1CvOT {
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  line-height:normal;
  text-align:center
 }
@@ -1352,7 +1352,7 @@ a:hover {
 }
 .EndOfArticleFailsafe__link___20IVo {
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:18px;
  font-weight:400;
  line-height:28px;
@@ -2280,7 +2280,7 @@ a:hover {
 }
 .NewsletterCallout__newsletterForm___KelJX fieldset .NewsletterCallout__info___23sqE span {
  color:inherit;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:32px;
  font-weight:400;
  line-height:1.12
@@ -2417,7 +2417,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
 }
 .NewsletterSignup__newsletter___QS2Rl {
  display:none;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:18px;
  line-height:24px;
  position:relative;
@@ -2713,7 +2713,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
 }
 .CaptionContestHeader__header___3mRRo.CaptionContestHeader__collapsed___qclSL,
 .CaptionContestHeader__header___3mRRo.CaptionContestHeader__partial___2CM73 {
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:28px;
  font-weight:400;
  line-height:1.14
@@ -3586,7 +3586,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
  }
 }
 .SiteHeader__secondaryNav___20mer .SiteHeader__title___aZr3Q {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:16px;
  line-height:1.31
 }
@@ -3689,7 +3689,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
  }
 }
 .section-select {
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  margin-bottom:6px;
  text-align:center;
  width:100%
@@ -3830,7 +3830,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
  top:100%
 }
 .subsection-nav .subsection-nav-list {
- font-family:Neutra Face,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Alegreya Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
  margin:0
 }
 @media (min-width:768px) {
@@ -3912,7 +3912,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
  bottom:0;
  display:-ms-flexbox;
  display:flex;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-weight:400;
  -ms-flex-pack:center;
  justify-content:center;
@@ -3978,7 +3978,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
  align-items:center;
  display:-ms-flexbox;
  display:flex;
- font-family:Neutra Face,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Alegreya Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:16px;
  letter-spacing:-.2px;
  position:relative;
@@ -4215,7 +4215,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
 }
 .goat-header .expanded-menu-title,
 .goat-header .goat-title {
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-weight:400;
  line-height:1.25;
  margin:0 auto;
@@ -4451,7 +4451,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
  box-sizing:border-box;
  display:-ms-flexbox;
  display:flex;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:21px;
  font-weight:400;
  -ms-flex-pack:center;
@@ -4489,7 +4489,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
 }
 .white-header-strip .entitlement a {
  display:inline-block;
- font-family:Neutra Face,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Alegreya Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:16px;
  margin-right:20px;
  width:100%
@@ -4539,7 +4539,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
  padding:0
 }
 .meta-view .links {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:24px;
  position:relative;
  text-align:center;
@@ -5545,7 +5545,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
 }
 .ImageCaption__caption___1EOQO {
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:17px;
  font-style:italic;
  line-height:1.18
@@ -5559,7 +5559,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
 .ImageCaption__cartoon___3KyUJ .ImageCaption__cartoonCaption___3N3qg,
 .ImageCaption__cartoonPageCaption___2yQBW {
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:19px;
  font-style:italic;
  line-height:1.16
@@ -5818,7 +5818,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
 .Byline__endSlide___pgRt1 .Byline__by___37lv8,
 .Byline__theLatest___2viI5 .Byline__by___37lv8 {
  color:#121212;
- font-family:Neutra Face,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Alegreya Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:14px;
  font-weight:300
 }
@@ -5902,7 +5902,7 @@ div+div>.NewsletterCallout__newsletterForm___KelJX {
 }
 .IframeEmbed__iframeCaption___2sEAG p {
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:17px;
  font-style:italic;
  line-height:1.18
@@ -6014,7 +6014,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .Card__hed___3aD8c {
  color:inherit;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:32px;
  font-weight:400;
  line-height:1.12
@@ -6030,7 +6030,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 .Card__river___Dp-FN .Card__hed___3aD8c,
 .Card__theLatest___2bNJt .Card__hed___3aD8c {
  color:#000;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:22px;
  font-weight:400;
  line-height:1.18
@@ -6049,7 +6049,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 .Card__spotlightFourItems___1aHQN .Card__dek___2E3rB,
 .Card__spotlightThreeItems___GnUx9 .Card__dek___2E3rB {
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:19px;
  font-weight:400;
  line-height:1.32
@@ -6067,7 +6067,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 .Card__podcasts___2dMUS .Card__dek___2E3rB,
 .Card__river___Dp-FN .Card__dek___2E3rB,
 .Card__theLatest___2bNJt .Card__dek___2E3rB {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:19px;
  letter-spacing:0;
  line-height:1.32
@@ -6086,7 +6086,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 .Card__spotlightFourItems___1aHQN .Card__hed___3aD8c,
 .Card__spotlightThreeItems___GnUx9 .Card__hed___3aD8c {
  color:#000;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:22px;
  line-height:1.18
 }
@@ -7355,7 +7355,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .Video__homepagePrimaryVideo___22DCI .Video__title___3QAw2 {
  color:#000;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:22px;
  font-weight:400;
  line-height:1.18
@@ -7368,7 +7368,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .Video__homepagePrimaryVideo___22DCI .Video__description___1pPO8 {
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:19px;
  font-weight:400;
  line-height:1.32
@@ -7381,7 +7381,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .Video__homepageSecondaryVideo___3jcDv .Video__title___3QAw2 {
  color:#000;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:22px;
  line-height:1.18
 }
@@ -7394,7 +7394,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 .Video__featuredVideo___3_2hs .Video__description___1pPO8,
 .Video__featuredVideo___3_2hs .Video__title___3QAw2 {
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:17px;
  font-style:italic;
  line-height:1.18
@@ -7469,7 +7469,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  margin-top:20px
 }
 .Video__homepageSecondaryVideo___3jcDv .Video__title___3QAw2 {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-style:normal;
  line-height:1.33;
  margin:10px 0;
@@ -7771,7 +7771,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  }
 }
 .RecirculationMostPopular__home___24fon .RecirculationMostPopular__hed___1Yugq {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:20px;
  line-height:1.3
 }
@@ -7782,7 +7782,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  }
 }
 .RecirculationMostPopular__home___24fon .RecirculationMostPopular__title___zwZ4R {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:24px;
  font-weight:400;
  line-height:1.5
@@ -7795,7 +7795,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .RecirculationMostPopular__home___24fon .RecirculationMostPopular__byLine___3Si-x {
  color:#121212;
- font-family:Neutra Face,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Alegreya Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:14px;
  font-weight:300
 }
@@ -7819,7 +7819,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .RecirculationMostPopular__title___zwZ4R {
  color:#121212;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:18px;
  font-weight:500
 }
@@ -7832,14 +7832,14 @@ a:hover .IssueDate__issueDate___2e_OC {
 .RecirculationMostPopular__hed___1Yugq,
 .RecirculationMostPopular__hed___1Yugq>* {
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:18px;
  font-weight:400;
  line-height:28px
 }
 .RecirculationMostPopular__counter___3YFww {
  color:#121212;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:18px;
  font-weight:500;
  line-height:25px
@@ -7852,7 +7852,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .RecirculationMostPopular__byLine___3Si-x {
  color:#121212;
- font-family:Neutra Face,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Alegreya Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:14px;
  font-weight:300
 }
@@ -8167,7 +8167,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  }
 }
 .DailyCartoonSection__sectionHeader___JFWRB {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:24px;
  font-weight:400;
  line-height:1.5
@@ -8336,7 +8336,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .Hero__hedSmaller___3rrbN {
  color:#000;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:22px;
  font-weight:400;
  line-height:1.18
@@ -8349,7 +8349,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .Hero__hed___3qGU4 {
  color:#000;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:22px;
  font-weight:400;
  line-height:1.18
@@ -8362,7 +8362,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .Hero__dek___I2uAD {
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:19px;
  font-weight:400;
  line-height:1.32
@@ -8375,7 +8375,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .Hero__byline___9RWsU {
  color:#121212;
- font-family:Neutra Face,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Alegreya Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:14px;
  font-weight:300
 }
@@ -8510,7 +8510,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 .HeroBreakingNews__headline___2iuXK,
 .HeroBreakingNews__headlineInline___2NwoV {
  color:inherit;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:32px;
  font-weight:400;
  line-height:1.12
@@ -8525,7 +8525,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .HeroBreakingNews__jumbo___1h8KC .HeroBreakingNews__hed___tmtFw {
  color:#000;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:22px;
  font-weight:400;
  line-height:1.18
@@ -8538,7 +8538,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .HeroBreakingNews__byline___3Ilr7 {
  color:#121212;
- font-family:Neutra Face,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Alegreya Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:14px;
  font-weight:300
 }
@@ -8771,7 +8771,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  }
 }
 .LatestSection__sectionHeader___1xOSE {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:24px;
  font-weight:400;
  line-height:1.5
@@ -8842,7 +8842,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  }
 }
 .MagazineSection__sectionHeader___1KzN5 {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:24px;
  font-weight:400;
  line-height:1.5
@@ -9064,7 +9064,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .RiverSection__hed___3G2TS,
 .RiverSection__hedDekSection___2__pp {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:24px;
  font-weight:400;
  line-height:1.5
@@ -9077,7 +9077,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  }
 }
 .RiverSection__dek___rH5SW {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:19px;
  font-style:italic;
  font-weight:500;
@@ -9240,7 +9240,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .SoloPromoSection__promo___2XQ_v {
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:19px;
  font-weight:400;
  line-height:1.32
@@ -9324,7 +9324,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  }
 }
 .SpotlightSection__sectionHeader___6RTaM {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:24px;
  font-weight:400;
  line-height:1.5
@@ -9407,7 +9407,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  }
 }
 .TopicsSection__sectionHeader___7dXW2 {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:24px;
  font-weight:400;
  line-height:1.5
@@ -9513,7 +9513,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  text-align:center
 }
 .VideoSection__sectionHeader___3FY_V {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:24px;
  font-weight:400;
  line-height:1.5
@@ -9684,7 +9684,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 .plr-river-item h4.plr-river-title,
 .River__hed___re6RP {
  color:#000;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:22px;
  font-weight:400;
  line-height:1.18
@@ -9698,7 +9698,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .River__recentWork___nY7IH>h4 {
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:24px;
  font-weight:400;
  line-height:1.5
@@ -9712,7 +9712,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 .plr-river-item .plr-river-summary,
 .River__dek___CayIg {
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:19px;
  font-weight:400;
  line-height:1.32
@@ -9726,7 +9726,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .River__byline___3AbqA {
  color:#121212;
- font-family:Neutra Face,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Alegreya Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:14px;
  font-weight:300
 }
@@ -10215,7 +10215,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  }
 }
 .OurColumnistsSection__sectionHeader___33Rd_ {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:24px;
  font-weight:400;
  line-height:1.5
@@ -10299,7 +10299,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  }
 }
 .Contributor__hed___2z_RO {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:20px;
  line-height:1.3
 }
@@ -10311,7 +10311,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .Contributor__name___2cnfi {
  color:inherit;
- font-family:Neutra Face,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Alegreya Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:15px;
  font-weight:300;
  line-height:1.2
@@ -10406,7 +10406,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  margin-left:5px
 }
 .ContributorsSection__sectionHeader___1LeEd {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:24px;
  font-weight:400;
  line-height:1.5
@@ -10595,7 +10595,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .Card__hed___31cLY {
  color:#000;
- font-family:Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+ font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
  font-size:22px;
  font-weight:400;
  line-height:1.18
@@ -10607,7 +10607,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  }
 }
 .Card__dek___29Iu1 {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:19px;
  letter-spacing:0;
  line-height:1.32
@@ -10694,7 +10694,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  display:block
 }
 .Card__inTheNewsItems___hdiHO .Card__hed___31cLY {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:20px;
  font-stretch:normal;
  font-style:normal;
@@ -10888,7 +10888,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 .HeroSecondarySection__sectionHeader___3C4hW {
  border-bottom:1px solid #e5e5e5;
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:21px;
  font-style:italic;
  font-weight:400;
@@ -11017,7 +11017,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 }
 .InTheNewsSection__sectionHeader___2_kyj {
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:21px;
  font-style:italic;
  font-weight:400;
@@ -11179,7 +11179,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  }
 }
 .PhotoBoothSection__photoBoothSectionHeader___2wrJf {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:24px;
  font-weight:400;
  line-height:1.5
@@ -11265,7 +11265,7 @@ a:hover .IssueDate__issueDate___2e_OC {
  }
 }
 .PodcastsSection__sectionHeader___14wyU {
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:24px;
  font-weight:400;
  line-height:1.5
@@ -11426,7 +11426,7 @@ a:hover .IssueDate__issueDate___2e_OC {
 .SpotlightSection__sectionHeader___nNdiK {
  border-bottom:1px solid #e5e5e5;
  color:#000;
- font-family:Adobe Caslon,Georgia,Times New Roman,Times,serif;
+ font-family:Alegreya,Georgia,Times New Roman,Times,serif;
  font-size:21px;
  font-style:italic;
  font-weight:400;

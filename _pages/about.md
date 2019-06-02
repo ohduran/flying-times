@@ -1,5 +1,5 @@
 ---
-layout: draft_page
+layout: page
 title: About
 permalink: /about
 ---
