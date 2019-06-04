@@ -17,3 +17,7 @@
 - About:
   label: About
   url: /about
+
+- FAQ:
+  label: FAQs
+  url: /faq
