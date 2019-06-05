@@ -8,6 +8,11 @@
                     <div class="Card__content___10ZW7 Card__hasPhoto___2TFok">
                         <a class="Link__link___3dWao  " href="{{ post.url }}"><h3 class="Card__hed___3aD8c">{{ post.title }}</h3></a>
                         <div class="Card__dekImageContainer___3CRKY">
+                            <a class="Link__link___3dWao  " href="{{ post.url }}">
+                                <div class="Image__image___1PhYl Card__image___3i3np allbooks" role="button" tabindex="0">
+                                    {% include newyorker/image.html post=post %}
+                                </div>
+                            </a>
                             <p class="Card__dek___2E3rB">{{ post.excerpt }}</p>
                         </div>
 
@@ -24,5 +29,5 @@
         </div>
 
         <!-- More Latest Items -->
-        <a class="Link__link___3dWao LatestSection__moreStories___3ETco Link__secondary___3lxp9" href="/latest">More Stories</a></div>
+        <a class="Link__link___3dWao LatestSection__moreStories___3ETco Link__secondary___3lxp9" href="/journal">More Stories</a></div>
 </section>
