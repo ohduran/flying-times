@@ -4,6 +4,7 @@ title:  "Of the Best Thing about LinkedIn"
 date:   2017-11-04 15:00:00 +0100
 categories: journal
 permalink: /the-best-thing-about-linkedin
+image: https://absurd.design/assets/img/gallery-color-69-19.jpg
 ---
 I'm in love with LinkedIn, because its technology can't be any crappier and, still, it dominates the social media market for job hunting and professional profiling.
 
