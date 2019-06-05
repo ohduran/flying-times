@@ -27,7 +27,7 @@
                         <ul>
                           {% for section in site.collections %}
                           {% if section.label != "posts" %}
-                            <li><a class="Link__link___3dWao  " href="/{{ section.label }}">{{ section.label | replace: "-", " " | capitalize }}</a></li>
+                            <li><a class="Link__link___3dWao  " href="/{{ section.label }}">{{ section.label | replace: "_", " " | capitalize }}</a></li>
                           {% endif %}
                           {% endfor %}
                         </ul>
